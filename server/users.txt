@@ -1,0 +1,3 @@
+admin:admin123
+teacher:password
+student:12345
