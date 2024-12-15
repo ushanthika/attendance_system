@@ -12,8 +12,12 @@ async function login() {
     if (response.ok) {
         localStorage.setItem('token', data.token);
         alert("Login successful!");
-        // window.location.href = "/client/home.html";
+        window.location.href = "/client/home.html";
     } else {
         alert(data.message);
+    }
+    function logout() {
+        localStorage.removeItem('token');
+        window.location.href = "/";
     }
 }
