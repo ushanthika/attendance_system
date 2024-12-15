@@ -15,9 +15,9 @@ attendance-system/
 └── README.md              # Project instructions
 
 Before running this project, ensure you have the following installed:
-=> Python (Version 3.7 or higher)
-=> pip (Python package manager)
-=> Git (Optional for cloning the repository)
+1.Python (Version 3.7 or higher)
+2.pip (Python package manager)
+3.Git (Optional for cloning the repository)
 
 Setup Instructions
 Follow these steps to set up and run the project:
@@ -35,9 +35,9 @@ pip install Flask PyJWT
 3. Create User Credentials
 Create a file named users.txt inside the server folder.
 Add sample credentials in the format username:password:
-admin:password123
-teacher:pass456
-student:test789
+admin:admin123
+teacher:password
+student:12345
 
 4.Run the Server
 python app.py
