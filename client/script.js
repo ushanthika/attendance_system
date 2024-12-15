@@ -16,8 +16,9 @@ async function login() {
     } else {
         alert(data.message);
     }
-    function logout() {
-        localStorage.removeItem('token');
-        window.location.href = "/";
-    }
+   
+}
+function logout() {
+    localStorage.removeItem('token');
+    window.location.href = "/";
 }
