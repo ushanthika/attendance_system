@@ -3,7 +3,7 @@ import jwt
 import datetime
 
 app = Flask(__name__, static_folder='../client', template_folder='../client')
-app.config['SECRET_KEY'] = 'your_secret_key'
+app.config['SECRET_KEY'] = '3f634c2f4af85823d64392a5c162c72ccf031f57df905ea8c5c010647d3a9c51'
 
 # Load users from a file
 def load_users(file_path="users.txt"):
